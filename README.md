@@ -39,6 +39,10 @@ The complete system is wired as seen in the picture below. In the figure, the po
 # mechanics
 The mechanics are relatively simple. The stepper motor is connected to a drum which takes in thread when turning either clockwise or counterclockwise. When turning clockwise, the curtain is closed due to the placement of the pulleys. When turning counterclockwise, the curtain is opened, naturally. In the schematic picture below the mechanics can be seen. This setup is only applicable for a two-curtain setup where both curtains move in the opposite direction, or with one curtain after some simplification. There are some drawbacks to this setup which will be explained at in the final section. 
 
+
+![image](https://user-images.githubusercontent.com/73174827/201544926-d9e7e161-2569-4e73-92ee-2b99edbd5088.png)
+
+
 # code
 The main script is the 'curtain_complete.py' To run headless (without monitor) this script runs on boot with the use of rc.local. The script a continuous while loop where it checks for either buttons to be pressed or double claps to be detected. The file 'multitimer_me' is imported into the main script hence needs to be in the same folder. Furthermore, the wakeup-music is and .mp3 file which needs to be located in the script by filling in the path. The other code files are predecessors of the 'curtain_complete' where you can independently test all the components.
 
