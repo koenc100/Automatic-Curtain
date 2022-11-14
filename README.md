@@ -44,7 +44,7 @@ The mechanics are relatively simple. The stepper motor is connected to a drum wh
 
 
 # code
-The main script is the 'curtain_complete.py' To run headless (without monitor) this script runs on boot with the use of rc.local. The script a continuous while loop where it checks for either buttons to be pressed or double claps to be detected. The file 'multitimer_me' is imported into the main script hence needs to be in the same folder. Furthermore, the wakeup-music is and .mp3 file which needs to be located in the script by filling in the path. The other code files are predecessors of the 'curtain_complete' where you can independently test all the components.
+The main script is the 'curtain_complete.py' To run headless (without monitor) this script runs on boot with the use of rc.local. The script runs a continuous while loop where it checks for either buttons to be pressed or double claps to be detected. The file 'multitimer_me' is imported into the main script hence needs to be in the same folder. Furthermore, the wakeup-music is a .mp3 file which needs to be located in the script by filling in the path. The other code files are predecessors of the 'curtain_complete' with which you can independently test all the components.
 
 Combining the code with the breadboard leads to the following complete setup:
 ![WhatsApp Image 2022-11-13 at 10 26 21 PM](https://user-images.githubusercontent.com/73174827/201545389-346c96aa-932f-46da-9820-42681a13d0d3.jpeg)
