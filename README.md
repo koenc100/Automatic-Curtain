@@ -2,7 +2,7 @@
 
 This repository contains all the code, 3D prints and the raspberry pi pin layout to make an automatic curtain for your bedroom! The curtain has two main features, it can open and close when it detects a double clap in the room, so you can simply close or open your curtains from anywhere in the room. That is not all; with the use of the LCD screen and keypad, you can set an alarm to wake up to a bright room the next day. All I can say: the future is here.
 
-In the first section, the required software libraries and hardware are listed. right after, I briefly explain the pin layout including components, mechanics and the code. Finally, I touch upon some improvements. Enjoy reading!
+In the first section, the required software libraries and hardware components are listed. right after, I briefly explain the pin layout including components, mechanics and the code. Finally, I touch upon some improvements. Enjoy reading!
 
 The software was coded in Python 3.7.3 on RasberryOS in the Thonny Python IDE. 
 
