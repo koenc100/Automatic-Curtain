@@ -1,4 +1,4 @@
-# Automatic-curtain
+# Budget Automatic-Curtain
 
 This repository contains all the code, 3D prints and the raspberry pi pin layout to make an automatic curtain for your bedroom! The curtain has two main features, it can open and close when it detects a double clap in the room, so you can simply close or open your curtains from anywhere in the room. That is not all; with the use of the LCD screen and keypad, you can set an alarm to wake up to a bright room the next day. All I can say: the future is here.
 
